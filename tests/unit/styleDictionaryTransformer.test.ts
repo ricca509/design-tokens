@@ -2,6 +2,13 @@ import styleDictionaryTransformer, { __testing } from '../../src/transformer/sty
 
 __testing.styleDictionaryConvertValue
 
+describe("Testing styleDictionaryTransformer", () => {
+  expect(styleDictionaryTransformer({
+    category: 'invalid',
+    name: 'h1'
+  })).toStrictEqual(undefined)
+  
+})
 describe("Testing styleDictionaryConvertValue", () => {
   test("nullable value", () => {
     // assert

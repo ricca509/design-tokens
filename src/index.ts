@@ -138,7 +138,7 @@ figma.ui.onmessage = async (message) => {
     }
     // close plugin
     // console.log('Figma Plugin does not close')
-    figma.closePlugin()
+    // figma.closePlugin()
   }
   // save settings
   if (message.command === 'saveSettings') {

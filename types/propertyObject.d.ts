@@ -3,7 +3,7 @@ import { ColorRgba, GradientType, GridAlignment, GridPattern, NumericUnitTypes, 
 export type propertyObject = {
   name: string,
   description?: string,
-  category?: string,
+  category: string,
   values?: {
     [key: string]: any
   }

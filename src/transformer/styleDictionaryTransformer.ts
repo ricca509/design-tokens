@@ -10,7 +10,7 @@ const defaultTransformer = propertyGroupValues => {
   }
   // define object
   const transformedProperties = {}
-  // transform proeprties
+  // transform properties
   Object.keys(propertyGroupValues).forEach(function (key) {
     // if this is the final level
     if (Object.prototype.hasOwnProperty.call(propertyGroupValues[key], 'value')) {
